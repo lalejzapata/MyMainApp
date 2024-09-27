@@ -94,6 +94,9 @@
 			);
 			mainGroup = 9DB0EF652CA7123C00E5A893;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				9D3092BA2CA72BCE00CAE27D /* XCRemoteSwiftPackageReference "MultiFrameworks" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 9DB0EF6F2CA7123C00E5A893 /* Products */;
 			projectDirPath = "";
@@ -324,6 +327,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9D3092BA2CA72BCE00CAE27D /* XCRemoteSwiftPackageReference "MultiFrameworks" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/lalejzapata/MultiFrameworks";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = 9DB0EF662CA7123C00E5A893 /* Project object */;
 }

@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import MultiFrameworks
 
 @main
 struct MyMainAppApp: App {
