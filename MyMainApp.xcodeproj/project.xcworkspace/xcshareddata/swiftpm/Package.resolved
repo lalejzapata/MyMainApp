@@ -1,0 +1,15 @@
+{
+  "originHash" : "64a5caf70b8f74b12d948e78e3ad294510484e36956178fba2fec474a2ef10d7",
+  "pins" : [
+    {
+      "identity" : "multiframeworks",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/lalejzapata/MultiFrameworks",
+      "state" : {
+        "branch" : "main",
+        "revision" : "90148e4e3980007bf4d133a5cd628b761e64a231"
+      }
+    }
+  ],
+  "version" : 3
+}

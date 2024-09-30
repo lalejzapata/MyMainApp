@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		9DCE7D742CAB1149005170CF /* MultiFrameworksPackage in Frameworks */ = {isa = PBXBuildFile; productRef = 9DCE7D732CAB1149005170CF /* MultiFrameworksPackage */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		9DB0EF6E2CA7123C00E5A893 /* MyMainApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyMainApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -23,6 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DCE7D742CAB1149005170CF /* MultiFrameworksPackage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +70,7 @@
 			);
 			name = MyMainApp;
 			packageProductDependencies = (
+				9DCE7D732CAB1149005170CF /* MultiFrameworksPackage */,
 			);
 			productName = MyMainApp;
 			productReference = 9DB0EF6E2CA7123C00E5A893 /* MyMainApp.app */;
@@ -95,7 +101,7 @@
 			mainGroup = 9DB0EF652CA7123C00E5A893;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				9D3092BA2CA72BCE00CAE27D /* XCRemoteSwiftPackageReference "MultiFrameworks" */,
+				9DCE7D722CAB1149005170CF /* XCRemoteSwiftPackageReference "MultiFrameworks" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 9DB0EF6F2CA7123C00E5A893 /* Products */;
@@ -329,7 +335,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		9D3092BA2CA72BCE00CAE27D /* XCRemoteSwiftPackageReference "MultiFrameworks" */ = {
+		9DCE7D722CAB1149005170CF /* XCRemoteSwiftPackageReference "MultiFrameworks" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/lalejzapata/MultiFrameworks";
 			requirement = {
@@ -338,6 +344,14 @@
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9DCE7D732CAB1149005170CF /* MultiFrameworksPackage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9DCE7D722CAB1149005170CF /* XCRemoteSwiftPackageReference "MultiFrameworks" */;
+			productName = MultiFrameworksPackage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 9DB0EF662CA7123C00E5A893 /* Project object */;
 }

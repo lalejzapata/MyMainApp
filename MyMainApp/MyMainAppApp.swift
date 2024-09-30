@@ -7,6 +7,8 @@
 
 import SwiftUI
 import MultiFrameworks
+import FrameworkA
+import FrameworkB
 
 @main
 struct MyMainAppApp: App {
@@ -14,5 +16,11 @@ struct MyMainAppApp: App {
         WindowGroup {
             ContentView()
         }
+    }
+    
+    func test() {
+        MultiFrameworkClass()
+        FrameworkAClass()
+        FrameworkBClass()
     }
 }
